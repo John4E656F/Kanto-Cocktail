@@ -44,7 +44,7 @@ export const CocktailCard: React.FC<CardProps> = ({
         <img
           src={imageSrc}
           alt={imageAlt}
-          className="w-full h-48 object-cover rounded-md"
+          className="w-full h-48 object-contain rounded-md"
         />
       </div>
     <span 
