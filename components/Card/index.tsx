@@ -1,17 +1,19 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 
 interface CardProps {
   brand: string;
   title: string;
   description: string;
   items: string[];
-    imageSrc: string;      
+  imageSrc: string;      
   imageAlt: string; 
   bgColor?: string;
   titleColor?: string;
   className?: string;
+  slug: string; 
 }
 
 export const CocktailCard: React.FC<CardProps> = ({
@@ -19,13 +21,15 @@ export const CocktailCard: React.FC<CardProps> = ({
   title,
   description,
   items,
-    imageSrc,
-    imageAlt,
+  imageSrc,
+  imageAlt,
   bgColor = 'bg-[#8CC2B5]',
   titleColor = 'text-[#813C2E]',
   className = '',
+  slug,
 }) => {
   return (
+    <Link href={`/cocktails/${slug}`} className="block">
     <section 
       className={`
         ${bgColor} 
@@ -36,7 +40,8 @@ export const CocktailCard: React.FC<CardProps> = ({
         duration-300 
         transform 
         hover:scale-[1.02] 
-        p-6 
+        p-6
+        cursor-pointer
         ${className}
       `}
     >
@@ -73,5 +78,6 @@ export const CocktailCard: React.FC<CardProps> = ({
             ))}
       </ul>
     </section>
+    </Link>
   );
 };
