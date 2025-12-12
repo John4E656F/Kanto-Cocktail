@@ -25,6 +25,24 @@ export default function Home() {
           <p className="text-white ">
             Ang Kanto Cocktail na magpapalimot sa’yo ng problema. Tatlong matatapang na espiritu, iikot ang mundo mo sa sarap.
           </p>
+          <div className="flex justify-center">
+            <a
+              href="/Kanto Cocktail Recipes.pdf"
+              download="kanto-cocktail-recipes.pdf"
+              className="inline-flex items-center gap-2 rounded-md bg-white px-4 py-2 text-sm font-semibold text-[#57756E] shadow-md hover:bg-gray-100 transition"
+            >
+              Download Our Complete Recipes in PDF
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path d="M3 14.5A1.5 1.5 0 0 1 4.5 13h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 0-.5.5v1A1.5 1.5 0 0 0 5.5 17h9a1.5 1.5 0 0 0 1.5-1.5v-1a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 1 0-1h2A1.5 1.5 0 0 1 17 14.5v1A2.5 2.5 0 0 1 14.5 18h-9A2.5 2.5 0 0 1 3 15.5v-1z" />
+                <path d="M10 2a.5.5 0 0 1 .5.5v8.293l2.146-2.147a.5.5 0 1 1 .708.708l-3 3a.497.497 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L9.5 10.793V2.5A.5.5 0 0 1 10 2z" />
+              </svg>
+            </a>
+          </div>
           <div className="text-left flex flex-col gap-5 pt-8">
             <CocktailCard
               imageSrc="/cocktails/mojito.png"
