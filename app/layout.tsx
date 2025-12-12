@@ -28,11 +28,12 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-      </body>
-      <footer className="w-full text-center p-4 bg-black ">
+        <footer className="w-full text-center p-4 bg-black ">
         <p className="text-white pb-2">Enjoy responsibly. All cocktails designed for Kanto Cocktail.</p>
-        <p className="text-sm font-bold text-red-500">Warning: May cause spontaneous karaoke sessions.</p>
+        <p className="text-sm font-bold text-red-500 pb-6">Warning: May cause spontaneous karaoke sessions.</p>
+        <div className="tenor-gif-embed" data-postid="12094962" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/videoke-filipino-pinoy-scream-karaoke-gif-12094962">Videoke Filipino GIF</a>from <a href="https://tenor.com/search/videoke-gifs">Videoke GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
       </footer>
+      </body>
     </html>
   );
 }

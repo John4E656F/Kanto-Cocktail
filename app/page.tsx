@@ -33,6 +33,7 @@ export default function Home() {
               title="Ailyn's Mojito"
               description="Ang Ailyn's Mojito ay isang napakasiglang, pampalamig na inumin. Sariwang mint, kalamansi, asukal, at sinamahan ng soda. Ang perpektong tropical cooler para sa lahat."
               items={[
+                "Rum",
                 "Fresh Mint",
                 "Lime Juice", 
                 "Simple Syrup",
@@ -46,6 +47,7 @@ export default function Home() {
               title="Mine Na (Classic Daiquiri)"
               description="Ang Mine Na Daiquiri, simple lang, pero malakas ang dating. Rum, kalamansi, at asukal—walang arte, malakas ang tama. Perfect pang-aura at pang-sweet."
               items={[
+                "Rum",
                 "Lime Juice",
                 "Simple Syrup",
               ]}
@@ -57,6 +59,7 @@ export default function Home() {
               title="No Refund (Tequila Sour)"
               description="Ito na, for the broken-hearted! Reposado tequila na may lime at syrup—may pait, may tamis, at may foam pa sa taas! Pang-drama, pang-senti. NO REFUND sa feelings mo! I-BUY NOW para gumaan ang pakiramdam."
               items={[
+                "Tequila",
                 "Lime Juice",
                 "Simple Syrup",
               ]}
@@ -68,6 +71,7 @@ export default function Home() {
               title="199 Lang Vodka (Vodka Gimlet)"
               description="199 lang for this clean girl aesthetic! Absolut Vodka and fresh lime. Straight-up deal, no hidden agenda. Walang kalat, walang **refund** sa lasa. Super crisp, super potent! I-DONE CHECKOUT na 'yan!"
               items={[
+                "Vodka",
                 "Lime Juice",
                 "Simple Syrup",
               ]}
@@ -79,8 +83,9 @@ export default function Home() {
               title="Basket #5 (Cuba Libre)"
               description="Ang OG best seller namin! Rum, Coke, at kalamansi. Perfect partner sa TikTok dance challenge mo! I-MINE NA para ma-ship via J&T pickup! Mura na, masarap pa. DONE CHECKOUT agad, mga mii!"
               items={[
+                "Rum",
                 "Lime Juice",
-                "Simple Syrup",
+                "Cola"
               ]}
             />
             <CocktailCard
@@ -90,8 +95,10 @@ export default function Home() {
               title="J&T Pickup (Tequila Highball)"
               description="Para sa matinding init! Tequila, lime, at soda. Light at bubbly. Ubusin mo man ang isang pitsel, sobrang fresh pa rin, hindi ka bibitawan ng amoy."
               items={[
+                "Tequila",
                 "Lime Juice",
                 "Simple Syrup",
+                "Soda Water"
               ]}
             />
             <CocktailCard
@@ -113,7 +120,7 @@ export default function Home() {
               title="Bundle Sale 3-in-1 (Long Island‑style Highball) "
               description="Sulit bundle na 'to mga mii! Tequila, Rum, AND Vodka in one glass! Sinamahan ng lime, syrup, at cola/lime juice. Napakalakas, pang-matagalan! Very strong, sip slowly ha? CHECK OUT NA bago magkaubusan!"
               items={[
-                "Olmeca Tequila",
+                "Tequila",
                 "Vodka",
                 "Rum",
                 "Lime Juice",
@@ -128,7 +135,6 @@ export default function Home() {
               title="Freebies (Rum & Vodka)"
               description="Looking for a versatile deal? Rum plus Vodka, with fresh lime and syrup. Top it with ANY soda you like—cola, lemon-lime, or ginger ale! Ikaw na bahala sa trip mo. Solid na Basket 'to! I-MINE NA!"
               items={[
-                "Olmeca Tequila",
                 "Vodka",
                 "Rum",
                 "Lime Juice",
