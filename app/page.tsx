@@ -27,6 +27,21 @@ export default function Home() {
           </p>
         <div className="flex flex-col items-center gap-6 text-center max-w-md mx-auto">
           {/* Download button - centered */}
+             <a
+            href="/Kanto Cocktail Menu.pdf"
+            download="kanto-cocktail-menu.pdf"
+            className="inline-flex items-center gap-2 rounded-md bg-white px-6 py-3 text-sm font-semibold text-[#57756E] shadow-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105"
+          >
+            Download The Menu 📥
+          </a>
+          
+          {/* OR divider */}
+          <div className="flex items-center gap-4 w-full">
+            <hr className="flex-1 border-white/50" />
+            <span className="text-white/70 font-medium text-sm px-4">OR</span>
+            <hr className="flex-1 border-white/50" />
+          </div>
+
           <a
             href="/Kanto Cocktail Recipes.pdf"
             download="kanto-cocktail-recipes.pdf"
