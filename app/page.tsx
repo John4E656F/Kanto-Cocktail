@@ -179,7 +179,7 @@ export default function Home() {
               imageAlt="Marvin ag shot tayon (Shot of Rum or Vodka)"
               brand="Rum or Vodka"
               title="Marvin ag shot tayon (Shot of Rum or Vodka)"
-              description="This is the call to action for Marvin, Ailyn's legendary packer. Every time our Belgian friend visits the Philippines, he tells Marvin: Ag shot tayon!"
+              description="This is the call to action for Marvin, Ailyn's legendary packer. Every time our Belgian friend visits the Philippines, he tells Marvin: Ag shot tayon! To order this you need to shout: “Marvin ag shot tayon!”"
               items={[
                 "Olmeca Tequila",
                 "Vodka",
