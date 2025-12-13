@@ -3,7 +3,7 @@ import { CocktailCard } from "../components/Card";
 
 export default function Home() {
   return (
-      <main className="flex min-h-screen w-full flex-col items-center justify-between ">
+      <main className="flex min-h-screen bg-black w-full flex-col items-center justify-between ">
         <div className="flex flex-col w-full items-center gap-6 text-center  py-16">
         <Image
           className=""
