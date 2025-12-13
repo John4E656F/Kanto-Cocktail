@@ -30,9 +30,9 @@ export default function Home() {
              <a
             href="/Kanto Cocktail Menu.pdf"
             download="kanto-cocktail-menu.pdf"
-            className="inline-flex items-center gap-2 rounded-md bg-white px-6 py-3 text-sm font-semibold text-[#57756E] shadow-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105"
+            className="inline-flex items-center gap-2 rounded-md bg-green-700 px-6 py-3 text-sm font-semibold text-white shadow-lg hover:bg-green-500 transition-all duration-300 transform hover:scale-105"
           >
-            Download The Menu 📥
+            Download The Menu 📜
           </a>
           
           {/* OR divider */}
